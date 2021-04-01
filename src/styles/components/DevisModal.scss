@@ -1,0 +1,77 @@
+.ReactModal__Overlay {
+    align-items: center;
+    background: $lightgrey;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.8);
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    outline: none;
+    padding: $m-size;
+    position: absolute;
+    z-index: 100;
+}
+
+.devis__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.devis__title {
+    color: $darkblue;
+    font-family: "OpenSansBold";
+    font-size: $font-size-small;
+    font-weight: bold;
+}
+
+.devis__description {
+    color: $darkblue;
+    font-family: "OpenSansRegular";
+    font-size: $font-size-xxsmall;
+    font-weight: lighter;
+    margin: $xs-size 0 0 0;
+}
+
+.devis__alert {
+    color: red;
+    font-family: "OpenSansLight";
+    font-size: $font-size-xxsmall;
+    margin: 0;
+}
+
+.devis__textarea {
+    border: .1rem solid $darkblue;
+    border-radius: .5rem;
+    font-family: "OpenSansRegular";
+    height: 8rem;
+    padding: .5rem .8rem;
+    width: auto;
+
+    @media (min-width: $desktop-breakpoint) {
+        width: 40rem;
+    }
+}
+
+.devis__button {
+    background: $orange;
+    border: none;
+    border-radius: .5rem;
+    color: white;
+    font-family: "OpenSansRegular";
+    margin: $l-size 0 0 0;
+    text-decoration: none;
+}
+
+.devis__redstar {
+    color: red;
+}
+
+.devis__input {
+    border: .1rem solid $darkblue;
+    border-radius: .5rem;
+    font-family: "OpenSansRegular";
+    padding: .5rem ;
+}

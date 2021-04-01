@@ -1,0 +1,61 @@
+.homepage__image {
+    height: 60vh;
+    width: 100%;
+
+    @media (min-width: $desktop-breakpoint-large) {
+        height: 100vh;
+    }
+}
+
+.homepage__content {
+    background: white;
+    border-radius: .5rem;
+    top: 20%;
+    margin: 0 0 0 $xl-size;
+    position: absolute;
+    width: 65%;
+    z-index: 5;
+
+    @media (min-width: $desktop-breakpoint-large) {
+        top: 40%;
+        width: 55%;
+    }
+}
+
+.homepage__title {
+    color: $darkblue;
+    font-family: "OpenSansSemiBold";
+    font-size: $font-size-small;
+    margin: 0 0 $m-size 0;
+    padding: $m-size $m-size 0 $l-size;
+
+    @media (min-width: $desktop-breakpoint) {
+        font-size: $font-size-medium;
+    }
+}
+
+.homepage__button {
+    background: $blue;
+    border: none;
+    border-radius: .5rem;
+    color: white;
+    font-family: "OpenSansRegular";
+    font-size: $font-size-xxsmall;
+    margin: $s-size 0 $m-size $l-size;
+    padding: $s-size;
+    text-decoration: none;
+
+    @media (min-width: $desktop-breakpoint) {
+        font-size: $font-size-xsmall;
+    }
+}
+
+.homepage__description {
+    font-family: "OpenSansRegular";
+    font-size: $font-size-xxsmall;
+    margin: $s-size 0 0 $l-size;
+
+    @media (min-width: $desktop-breakpoint) {
+        font-size: $font-size-xsmall;
+    }
+}
